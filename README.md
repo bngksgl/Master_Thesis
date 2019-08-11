@@ -1,4 +1,5 @@
-# Active Learning For Integrating Sparse Datasets: A Comparison of Different Query Strategies and Learning Algorithms
+# Active Learning For Integrating Sparse Datasets: 
+# A Comparison of Different Query Strategies and Learning Algorithms
 
 Data matching is the task of identifying and matching records from different datasets that refer to the same real world entity. One of the fundamental issues in data matching is creating a training dataset where pairs in the dataset are assigned a label representing their match status. This often involves highly time consuming manual labeling. In order to overcome this, active learning algorithms can be used where the algorithm chooses the instances it wants to learn from and therefore reaches the same accuracy while using significantly less amount of data. In the thesis active learning has been applied to match products collected from different websites against a manually prepared product catalog. This task involves certain challenges which haven't been addressed widely in the literature that includes; finding appropriate strategies to handle missing values prior to data matching, trying different query strategies for data matching tasks and employing different learning algorithms in combination with active learning strategies. 
 
